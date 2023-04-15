@@ -93,3 +93,44 @@ padding-right: 28px;
     border-width: 1px;
     border-style: solid;
 }
+
+
+/* ========== Team section / Mykyta ========== */
+.team-section {
+    outline: 2px solid tomato;
+    color: var(--text-color-light-theme);
+}
+
+.team-container {
+    text-align: center;
+}
+
+.sup-title {
+    margin-bottom: var(--row-gap);
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.team-section-desc {
+    margin-bottom: var(--row-gap);
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: var(--column-gap);
+}
+
+.team-item {
+    width: calc((100% - 40px) / 3);
+
+}
+
+.team-desc-thumb {
+    padding-top: 20px;
+    
+}
+
+.team-name {
+    margin-bottom: 12px;
+}
