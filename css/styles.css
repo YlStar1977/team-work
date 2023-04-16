@@ -179,6 +179,57 @@ border-radius: 0px;
 
 
 
+/**
+  |============================
+  | 
+  |============================
+*/
+/* Solution section_pidvys */
+
+.solution-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.solution-title-text {
+    padding-top: 84px;
+    padding-right: 44px;
+    padding-bottom: 84px;
+    padding-left: 30px;
+    background-color: var(--green-theme);
+}
+
+.solution-subtitle-text {
+font-size: 20px;
+line-height: 1.65;
+margin-bottom: 5px;
+}
+
+.solution-title {
+font-weight: 300;
+font-size: 38px;
+line-height: 1.26;
+margin-bottom: 26px;
+}
+
+.solution-text {
+    margin-bottom: 17px;
+}
+
+.solution-button {
+    width: 167px;
+    height: 50px;
+    border: 1px solid var(--bg-main);
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--text-color-main);
+    background-color: var(--green-theme);
+    cursor: pointer;
+}
+
+
 /* ========== Team section / Mykyta ========== */
 .team-section {
   outline: 2px solid tomato;
