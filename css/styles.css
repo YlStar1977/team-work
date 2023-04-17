@@ -183,6 +183,52 @@ color: var(--green-theme);
   border-radius: 0px;
 }
 
+/* Testimonials */
+.testimonials-section {}
+
+.container {}
+
+.testimonials-list {
+  display: flex;
+  text-align: center;
+  gap: 71px;
+}
+
+
+.testimonials-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+
+  color:var(--text-color-light-theme);
+}
+
+.testimonials-text {
+  font-size: 18px;
+  line-height: 1.56;
+
+  min-width: 362px;
+
+  color: var(--text-color-light-theme);
+}
+
+.testimonials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background-color: var(--green-theme);
+  width: 67px;
+  height: 67px;
+
+  margin: 0 auto;
+}
+
+.testimonials-items {
+  
+}
+
 
 
 /* Solution section_pidvys */
