@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 :root {
   --green-theme: #28a745;
   --bg-main: #ffffff;
@@ -21,7 +20,7 @@ body {
   line-height: 1.56;
 
   background-color: var(--bg-main);
-  color: var(--text-color-main);
+  color: var(--text-color-light-theme);
 }
 
 h1,
@@ -174,6 +173,7 @@ color: var(--green-theme);
 /* Hero Section */
 
 .hero-section {
+
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.4),
@@ -183,26 +183,23 @@ color: var(--green-theme);
   border-radius: 0px;
 }
 
-/**
-  |============================
-  | 
-  |============================
-*/
+
+
 /* Solution section_pidvys */
 
 .solution-container {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .solution-title-text {
-  padding-top: 84px;
-  padding-right: 44px;
-  padding-bottom: 84px;
-  padding-left: 30px;
-  background-color: var(--green-theme);
+    padding-top: 84px;
+    padding-right: 44px;
+    padding-bottom: 84px;
+    padding-left: 30px;
+    background-color: var(--green-theme);
 }
 
 .solution-subtitle-text {
@@ -219,20 +216,23 @@ color: var(--green-theme);
 }
 
 .solution-text {
-  margin-bottom: 17px;
+    margin-bottom: 17px;
 }
 
 .solution-button {
-  width: 167px;
-  height: 50px;
-  border: 1px solid var(--bg-main);
-  font-size: 18px;
-  line-height: 1.56;
-  color: var(--text-color-main);
-  background-color: var(--green-theme);
-  cursor: pointer;
+    width: 167px;
+    height: 50px;
+    border: 1px solid var(--bg-main);
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--text-color-main);
+    background-color: var(--green-theme);
+    cursor: pointer;
 }
-/*  business cases/ Ann */
+
+
+/* ============ business cases/ Ann ============ */
+
 .business-section {
   color: var(--text-color-light-theme);
 }
@@ -246,6 +246,7 @@ color: var(--green-theme);
 }
 
 /* ========== Team section / Mykyta ========== */
+
 .team-section {
   outline: 2px solid tomato;
   color: var(--text-color-light-theme);
@@ -358,4 +359,4 @@ color: var(--green-theme);
   background-color: var(--green-theme);
   color: var(--text-color-main);
 }
->>>>>>> Stashed changes
+

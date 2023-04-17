@@ -20,29 +20,73 @@
 
   <body>
     <!-- header Сервер -->
-    <header>
+    <header class="section-header">
       <!-- logo  -->
-      <a class="logo" href="./index.html"
-        >Finance <span class="logo-header">Ledger</span></a
-      >
-      <!-- menu  -->
-      <nav class="nav">
-        <ul class="list nav-list">
-          <li class="nav-item"><a href="" class="link nav-link">Home</a></li>
-          <li class="nav-item"><a href="" class="link nav-link">About</a></li>
-          <li class="nav-item"><a href="" class="link nav-link">Cases</a></li>
-          <li class="nav-item"><a href="" class="link nav-link">Blog</a></li>
-          <li class="nav-item"><a href="" class="link nav-link">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container container-header">
+        <a class="logo link" href="./index.html">
+          Finance <span class="logo-header">Ledger</span>
+          <img src="./images/logo/logo.svg" alt="" />
+        </a>
+
+        <!-- menu  -->
+        <nav class="nav">
+          <ul class="list nav-list">
+            <li class="nav-item">
+              <a href="" class="link nav-link active">Home</a>
+            </li>
+            <li class="nav-item"><a href="" class="link nav-link">About</a></li>
+            <li class="nav-item"><a href="" class="link nav-link">Cases</a></li>
+            <li class="nav-item"><a href="" class="link nav-link">Blog</a></li>
+            <li class="nav-item">
+              <a href="" class="link nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
+      <!-- HERO Vlad -->
+
+      <section class="hero-section">
+        <h1>The Sky Is The Limit</h1>
+        <p>We provide world class financial assistance</p>
+        <button type="button">Read More</button>
+      </section>
+
+      <!--================ Solutions_pidvys =====================-->
+      <section class="solutions-section">
+        <div class="solution-container container">
+          <div class="solution-img">
+            <img
+              src="./images/solution/img_solutions.jpg"
+              alt="People"
+              width="680"
+              height="460"
+            />
+          </div>
+          <div class="solution-title-text">
+            <p class="solution-subtitle-text">What you are looking for</p>
+            <h2 class="solution-title">We provide bespoke solutions</h2>
+            <p class="solution-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button class="solution-button button" type="button">
+              Read More
+            </button>
+          </div>
+        </div>
+      </section>
+
       <!--=======================  business cases/ Ann ========================== -->
 
 <<<<<<< Updated upstream
       <section>
         <p>This is what we do</p>
         <h2>Business Cases</h2>
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           sapiente!
@@ -192,39 +236,238 @@
         </div>
 >>>>>>> Stashed changes
       </section>
+
       <!--======================== Team section / Mykyta ==============================-->
-      <section>
-        <div class="container">
-          <p>Who we are</p>
-          <h2>Our Professional Team</h2>
-          <p>
+      <section class="team-section section">
+        <div class="team-container container">
+          <p class="sup-title">Who we are</p>
+          <h2 class="secondary-title">Our Professional Team</h2>
+          <p class="team-section-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
             sapiente!
           </p>
-          <ul>
-            <li>
-              <img
-                src="./images/team-section/team-member-1.jpg"
-                alt="man in a suit"
-              />
-              <h3>John Doe</h3>
-              <p>President</p>
+          <ul class="team-list list">
+            <li class="team-item">
+              <div class="team-img-thumb">
+                <img
+                  src="./images/team-section/team-member-1.jpg"
+                  alt="man in a suit"
+                  width="420"
+                  height="286"
+                />
+                <div class="team-img-overlay">
+                  <ul class="team-social-list list">
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="35" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-fb"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://twitter.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="35" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-twt"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.youtube.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="40" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-ytb"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.linkedin.com/login/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="31" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-lin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-desc-thumb">
+                <h3 class="team-name">John Doe</h3>
+                <p class="team-position">President</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/team-section/team-member-2.jpg"
-                alt="girl with long dark hair"
-              />
-              <h3>Jane Doe</h3>
-              <p>Vice President</p>
+            <li class="team-item">
+              <div class="team-img-thumb">
+                <img
+                  src="./images/team-section/team-member-2.jpg"
+                  alt="man in a suit"
+                  width="420"
+                  height="286"
+                />
+                <div class="team-img-overlay">
+                  <ul class="team-social-list list">
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="35" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-fb"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://twitter.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="35" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-twt"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.youtube.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="40" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-ytb"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.linkedin.com/login/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="31" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-lin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-desc-thumb">
+                <h3 class="team-name">Jane Doe</h3>
+                <p class="team-position">Vice President</p>
+              </div>
             </li>
-            <li>
-              <img
-                src="./images/team-section/team-member-3.jpg"
-                alt="man in a white shirt"
-              />
-              <h3>Steve Smith</h3>
-              <p>Marketing Head</p>
+            <li class="team-item">
+              <div class="team-img-thumb">
+                <img
+                  src="./images/team-section/team-member-3.jpg"
+                  alt="man in a suit"
+                  width="420"
+                  height="286"
+                />
+                <div class="team-img-overlay">
+                  <ul class="team-social-list list">
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="35" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-fb"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://twitter.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="35" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-twt"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.youtube.com/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="40" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-ytb"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="link"
+                        href="https://www.linkedin.com/login/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        <svg class="team-social-img" width="31" height="35">
+                          <use
+                            href="./images/team-section/sprite.svg#icon-lin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-desc-thumb">
+                <h3 class="team-name">Steve Smith</h3>
+                <p class="team-position">Marketing Head</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -238,9 +481,16 @@
           <!-- 2 column subsectinn -->
           <ul class="request-list list">
             <li class="request-list-item">
+              <img
+                src="./images/request/rectangle.jpg"
+                alt="the man at the table looks at the computer"
+                width="652px"
+              />
+            </li>
+            <li class="request-list-item">
               <h2 class="title">Request Callback</h2>
               <!-- form and buttom -->
-              <ul>
+              <ul class="form-list">
                 <!-- 1 form -->
                 <li>
                   <form>
@@ -253,30 +503,29 @@
                     <input type="text" />
                   </form>
                 </li>
-                <!-- buttom -->
                 <li>
+                  <!-- buttom -->
                   <button class="button">Send</button>
                 </li>
               </ul>
-            </li>
-            <li class="request-list-item">
-              <img
-                src="./images/rectangle.jpg"
-                alt="the man at the table looks at the computer"
-              />
             </li>
           </ul>
         </div>
       </section>
     </main>
+
     <!--========= Footer section / Sergiy  =========-->
     <footer>
       <div class="container">
         <ul>
-          <li><img src="./images/facebook.png" alt="Facebook logo" /></li>
-          <li><img src="./images/twitter.png" alt="Twitter logo" /></li>
-          <li><img src="./images/youtube.png" alt="Youtube logo" /></li>
-          <li><img src="./images/linkedin.png" alt="LinkedIn logo" /></li>
+          <li>
+            <img src="./images/footer/facebook.png" alt="Facebook logo" />
+          </li>
+          <li><img src="./images/footer/twitter.png" alt="Twitter logo" /></li>
+          <li><img src="./images/footer/youtube.png" alt="Youtube logo" /></li>
+          <li>
+            <img src="./images/footer/linkedin.png" alt="LinkedIn logo" />
+          </li>
         </ul>
         <p>Copyright © 2021 - FinanceLedger</p>
       </div>
