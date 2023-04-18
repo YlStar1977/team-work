@@ -1,4 +1,3 @@
-
 :root {
   --green-theme: #28a745;
   --bg-main: #ffffff;
@@ -56,6 +55,7 @@ img {
   /* outline: 2px solid tomato; */
 
   width: 1360px;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 28px;
@@ -173,7 +173,6 @@ color: var(--green-theme);
 /* Hero Section */
 
 .hero-section {
-
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.4),
@@ -183,7 +182,11 @@ color: var(--green-theme);
   border-radius: 0px;
 }
 
-/* Testimonials */
+/**
+  |============================
+  | Testimonials 
+  |============================
+*/
 .testimonials-section {
   padding-top: 40px;
   padding-bottom: 19px;
@@ -193,7 +196,7 @@ color: var(--green-theme);
   display: flex;
   text-align: center;
   gap: 71px;
-  padding : 0 38px;
+  padding: 0 38px;
 }
 
 .testimonials-title {
@@ -203,7 +206,7 @@ color: var(--green-theme);
   margin-top: 15px;
   margin-bottom: 16px;
 
-  color:var(--text-color-light-theme);
+  color: var(--text-color-light-theme);
 }
 
 .testimonials-text {
@@ -232,23 +235,25 @@ color: var(--green-theme);
   max-width: 362px;
 }
 
-
-
-/* Solution section_pidvys */
+/**
+  |============================
+  | Solution section_pidvys
+  |============================
+*/
 
 .solution-container {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-    padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .solution-title-text {
-    padding-top: 84px;
-    padding-right: 44px;
-    padding-bottom: 84px;
-    padding-left: 30px;
-    background-color: var(--green-theme);
+  padding-top: 84px;
+  padding-right: 44px;
+  padding-bottom: 84px;
+  padding-left: 30px;
+  background-color: var(--green-theme);
 }
 
 .solution-subtitle-text {
@@ -265,22 +270,25 @@ color: var(--green-theme);
 }
 
 .solution-text {
-    margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 
 .solution-button {
-    width: 167px;
-    height: 50px;
-    border: 1px solid var(--bg-main);
-    font-size: 18px;
-    line-height: 1.56;
-    color: var(--text-color-main);
-    background-color: var(--green-theme);
-    cursor: pointer;
+  width: 167px;
+  height: 50px;
+  border: 1px solid var(--bg-main);
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--text-color-main);
+  background-color: var(--green-theme);
+  cursor: pointer;
 }
 
-
-/* ============ business cases/ Ann ============ */
+/**
+  |============================
+  | business cases/ Ann
+  |============================
+*/
 
 .business-section {
   color: var(--text-color-light-theme);
@@ -294,7 +302,11 @@ color: var(--green-theme);
   margin-top: 40px;
 }
 
-/* ========== Team section / Mykyta ========== */
+/**
+  |============================
+  | Team section / Mykyta
+  |============================
+*/
 
 .team-section {
   outline: 2px solid tomato;
@@ -368,7 +380,11 @@ color: var(--green-theme);
   fill: var(--text-color-main);
 }
 
-/* ============section request=================*/
+/**
+  |============================
+  | section request
+  |============================
+*/
 .request-list {
   display: flex;
   flex-wrap: wrap;
@@ -409,18 +425,22 @@ color: var(--green-theme);
   color: var(--text-color-main);
 }
 
-/* ============ Footer section =================*/
+/**
+  |============================
+  | Footer section
+  |============================
+*/
 .footer {
   background-color: var(--text-color-light-theme);
 }
 .footer-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    padding-top: 20px;
-    padding-left: 0px;
-    margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 20px;
+  padding-left: 0px;
+  margin-top: 0px;
 }
 .footer-text {
   color: var(--bg-main);
