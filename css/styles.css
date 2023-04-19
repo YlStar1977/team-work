@@ -335,6 +335,7 @@ color: var(--green-theme);
   background: var(--bg-blue);
   border-radius: 5px;
   border: 1px solid var(--bg-main);
+  cursor: pointer;
 }
 /**
   |============================
